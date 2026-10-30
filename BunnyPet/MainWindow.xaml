@@ -1,0 +1,16 @@
+<Window x:Class="BunnyPet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BunnyPet" Width="112" Height="128"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid Background="Transparent">
+        <Image x:Name="BunnyImage" Width="104" Height="120" Stretch="Uniform"
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               MouseLeftButtonDown="BunnyImage_MouseLeftButtonDown"
+               MouseLeftButtonUp="BunnyImage_MouseLeftButtonUp"
+               MouseMove="BunnyImage_MouseMove"
+               MouseRightButtonUp="BunnyImage_MouseRightButtonUp"
+               MouseDown="BunnyImage_MouseDown"/>
+    </Grid>
+</Window>
